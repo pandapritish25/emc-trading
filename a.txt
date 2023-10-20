@@ -1,0 +1,43 @@
+*User Authentication:*
+User authentication is about ensuring that only authorized people can access certain parts of a website or application. Here's what it means:
+
+- *Employees and Admin should be able to log in securely:* This means that both regular employees and administrators (admin) should have their own usernames and passwords. When they enter the correct username and password, they can access their respective accounts securely. It's like having a lock on a door that only opens when the right key is used.
+
+- *Password reset and account creation for employees:* If an employee forgets their password, they should have a way to reset it. Also, when a new employee joins the company, there should be a way to create a new account for them. Think of it as providing a way to get back into your house if you lose your key and creating a new key when someone new moves in.
+
+*Employee Features:*
+
+- *Lunch Booking:*
+  - *View the menu for the day:* Employees can see what food options are available for lunch on a given day. It's like looking at a menu in a restaurant.
+  - *Select and book lunch items:* They can choose the food they want for lunch and reserve it. It's similar to placing an order at a restaurant.
+
+- *Cab Booking:*
+  - *Check cab availability:* Before deciding to take a cab (car service), employees can check if there are any cabs available. Think of it as checking if there are taxis waiting outside.
+  - *Book a cab for commuting:* If a cab is available, they can request to use it for their commute. This is like hailing a taxi on the street.
+
+- *Desk Booking:*
+  - *View available desks:* Employees can see which desks are free or not being used. It's similar to seeing which chairs at a library are empty.
+  - *Book a desk for the day:* If they find an available desk they like, they can reserve it for the day, much like reserving a table at a restaurant.
+
+- *Blog Management:*
+  - *View popular company blogs:* Employees can read articles or posts that are popular within the company. It's like reading news or articles on the internet.
+  - *Write and publish a blog post:* They can also create their own articles and share them with their colleagues, which is like writing and publishing your own story on a blog.
+
+*Admin Features:*
+
+- *Employee Management:*
+  - *Create, read, update, and delete (CRUD) employees:* Admins can add new employees to the system, view their information, update details if necessary (like changing an address), and delete employee accounts if they are no longer with the company. It's like managing a list of people who work for the company.
+
+- *Menu Management:*
+  - *CRUD operations for the daily menu:* Admins can create, view, update, and delete the items on the menu for each day. It's similar to managing the dishes on a restaurant's menu.
+
+- *Cab Service Management:*
+  - *CRUD operations for cab services:* Admins can add new cab services, see the existing ones, make changes to their details, or remove them if they're no longer needed. It's like managing a list of taxi companies.
+
+- *Desk Management:*
+  - *CRUD operations for desk availability:* Admins can add information about available desks, check which desks are in use, modify desk details, or mark them as unavailable if they're under maintenance. It's like keeping track of the status of all the desks in an office.
+
+- *Blog Management:*
+  - *CRUD operations for blogs:* Admins can create, read, update, and delete blog posts on the company's website. It's similar to managing articles or stories on a blog site.
+
+In essence, these features make a system where employees can do their tasks (like booking lunch, cabs, and desks) and share information (by writing blogs), while admins can manage all the related data and users. It's like creating a digital workplace that's organized and secure.
