@@ -1,0 +1,46 @@
+Asynchronous communication-->
+There is a log service that provides analyse monitor security and other services thus cloud provides us with logging service and applications here also provides with logging service and are always in contact with the log
+Thus this is called as synchronous application
+
+But what will happen if the logging service is not fine means that there is a delay inside the logging service then we can create a topic means a topic is a place where messages are stores and then whenever the logging service is ready then we can start taking the messages
+
+Advantages of creating a topic --> always avialable
+				   by seeing the topic we can increase the or scability or avialbility and all
+				  
+				  
+		Cloud Pub-sub
+		--------------
+	Pub -sub is a reliable , scalable fully managed asynchronous managed service
+	You can manage and can process a lot of queries inside pub sub each and every day
+	pub-sub can auro scale and also low price to use
+	
+	like you can have sqs and also sns like you can go for pull and push message deliveries
+	
+	publisher can send messages to google.com
+	one is pull subscription and the other is push subscription
+	
+	mainly it has 2 parts one is publisher and the other is subscriber
+	Thus we can say that publisher creates a topic and sends messafes inside the topic and whenever the subscriber wants to take the messages then ot takes from it
+	
+	Step-->1 create a topic
+	Step-->2 subscriptions are created to the topic
+	if we have multiple clients those who pul from same subscription then we can use all
+	
+	Message can be delivered to each and every person inside the subscription
+	
+	
+	Now how to create a pub-sub
+	s1-->Go inside google cloud and then start type pub-sub
+	s2-->create a topic using default pub sub
+	s3-->enter into the topic and create a subscription(additional)
+	s4--> after creation of topic then start with the publish message inside the topic
+	s5--> now open subscription inside all other tabs means all new tabs
+	s6--> now how to send the message that the message is acknowledged or not 
+	
+	
+	
+	Cloud Dataflow-->
+	Pub/sub > dataflow > bigquery
+	like it helps to transfer from one place to other
+	
+	

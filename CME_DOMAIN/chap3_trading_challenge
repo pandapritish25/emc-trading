@@ -1,0 +1,138 @@
+What is a Futures Contract?
+futures contract --> these are the contracts that allows participants to offset and risk about the future trades and also allows how much risk to take and how much risk not to take
+a futures contract is distinct from forward contract a futures contract is a legally binding statement to buy and sell an standarised contract
+a future contract is a legally binding statement to buy and sell an particular contract to buy in a specific month and specific date
+
+The fact that futures contracts are standardized and exchange-traded makes these instruments indispensable to commodity producers, consumers, traders and investors.
+
+a standarised contract specifies the quantity and the physical time of delivery the specification of an contract is identical to all the people price is being discovered by quoting a march 
+
+exchange traded also gurantees that the the contract will be hinired eliminationg counterparty risk inside the market 
+The exchange thereby eliminates counterparty risk and, unlike a forward contract market, provides anonymity to futures market participants.
+
+a future contract is an standarised agreement that helps people to find which contract is to be purchased and how it will be purchased 
+
+Learn About Contract Specifications
+every contract has an underying asset means which to but and which onw to sell when an party enters into an aggrement they have an particular time to take the agreement and also other thingsthis asset can be a physical commodity and also other things
+
+each futures contract specifies is the quantity of the product deliivered contract size for example 5000 bushes of corn
+mainly each future contract has a number o things to be specified inside it 
+the exchange defines the amount to be taken inside the contract and also the size of the market to be taken inside the market 
+a futures contract specifies which one to make out and also which amount to be taken inside the market 	finally the delivery month can be anything depending upon the contract size and also other market 
+
+What are Trading Codes?
+the display format of the market is the fundamental like how the onw would be taken inside the market 
+contract codes are 1 to 3 letter codes defining the month and year of expiration and many codes have fewest chars and also an intact environment
+
+Overview of Expiration and Settlement
+Expiration
+there are a no of secified date on which they expire and also prior to the expiration date there is also the trader have to also close the open positions and have also use the open positions inside the market and also some of them will choose which one to take and which one to not inside the market
+
+settlement is the fullfilment of the legal delivery obligations associated with orginal contract for some contracts the delivery will take place inside the contract to be taken 
+
+in most of the cases delivery will take place in the form of cash settlement inside the market and also in some cases the delivery would take place inside credit and also the debit made inside the contract 
+
+Minimum Price Fluctuation
+the tick is the amount of fluctuation inside a contract means the by how much amount the tick can be moving inside one of the contract and also they can be taken inside the market inside the contract 
+
+Tick sizes are defined by the exchange and vary depending on the size of the financial instrument and requirements of the marketplace. Tick sizes are set to provide optimal liquidity and tight bid-ask spreads.
+
+
+Price Limits
+
+price limits are the maximum price range inside the market and permitted for each of trading seasons these are mainly made by the product to product and also varies from one to other on the basis of tick size 
+
+Calculating Price Limits
+price limits are been calculated on daily basis and are also there physically except in certain delivery markets
+When trading a specific product, it is important to be aware of price limits and the mechanisms that occur when limits are hit. 
+
+
+Price Banding
+price banding is a similar mechanism which subjects all ordders  to price validation and rejects the outside orders bands are calculated manually based on actual price += band value there are price that dynamically adjust inside the market
+
+Contract Unit
+the contract size is a standarised unit unique to each futures cintcat and can be also used inside the volume
+based on volume weight and also financial instrument its mainly the contract unit is based on price and also other units 
+
+Contract Notional Value
+it is the financial expression of the contract and also current futures contract price
+contract unit * contrct price = notional value
+hedge ratio is the value at risk / notional value
+value at risk / notional value
+hedge ratio = value at risk / notional value
+
+What is Mark-to-Market?
+one of the defining features is mark to market for everyone the final delivery price is same for everyone inside the market 
+
+MTM is an distincctive feature inside the market with regulatoty reform inside the market 
+prior to the crises in 2007-08 most of the otc didnt had anykind of daily settlement price so client never knew the daily variation
+
+futures market have an officialy daily settlement price while contracts may have slightly other prices the methodology is fully diclosedand have slight high or low
+
+Mark-to-market enforces the daily discipline of exchanges profit and loss between open futures positions eliminating any loss or profit carry forwards that might endanger the clearinghouse
+
+
+Understanding Margin
+securities margin is the money you borrow from theexchange and on down payment but futures margin is the amount of money you have kept insdie the market that to own an particccular contract means that futures margin is the min amount you must deposit to run that contract 
+it is a small percentage of notional value means that it si generally 3 to 12 percent of notional value
+
+When markets are changing rapidly and daily price moves become more volatile, market conditions and the clearinghouses' margin methodology may result in higher margin requirements to account for increased risk.
+
+
+initial mainly deposited at initial stage to maintain to start with futueres
+Maintenance margin is the minimum amount that must be maintained at any given time in your account.
+if you dont have that much amount then you will be having an margin call reduce the position and your positions will be liquidated immedietly
+
+Contract Expiration Options
+a contract expiration date is the last day you can mke your contract . this typically occurs inside the 3rd friday inside the market 
+
+one is offset or liquidate a position means that it is the most simple way to liquidate the position means that whenever you are offseting an position you have to take the oppsoite position taken by the trader inside the market 
+Rollover
+
+When rolling forward, a trader will simultaneously offset his current position and establish a new position in the next contract month. For example, a trader who is long four S&P 500 futures contracts expiring in September will simultaneously sell four Sept ES contracts and buy four Dec or further away ES contracts.
+
+Settlement
+If a trader has not offset or rolled his position prior to contract expiration, the contract will expire and the trader will go to settlement. At this point, a trader with a short position will be obligated to deliver the underlying asset under the terms of the original contract. This can be either physical delivery or cash settlement depending on the market.
+
+price discovery means that it is the discovery or the act of determining a common price for an asset . because of efficiency it occurs everytime an buyer and seller sell andbuy each and everything
+	
+Price discovery is the result of the interaction between sellers and buyers, or in other words, between supply and demand and occurs thousands of times per day in the futures markets.
+
+the auction type trades means that trader can find trades if they feel efficient 
+It means that you can rely on the quotes you are seeing on your screen, and trade with the knowledge that you are getting the best price, and the same price, as all others trading the same product at the same time.
+
+Calculating Futures Contract Profit or Loss
+ Each market calculates movement of price and size differently, and as such, traders need to be aware of how the market you are trading calculates profit and loss. 
+ 
+ Current Value
+ calculating the profit and loss being made by multiplying the dollar value and also the calculation gives the profit and loss per contract 
+ the size of contract has an multiplying effect inside the market how price fluctuation and market volatility affects the market
+ 
+ What Are Speculators?
+ speculators are the primary participants inside the market . Aspeculatos is any personthat accepts risk in order to have profit inside the market. Sepculators they could just easily take up the finances
+ Proprietary Trading Firms
+ properity trading firms also known as prop shops profit as a result 
+ By using the capital resources of the prop shop, traders gain access to more capital than they would if they were trading on their own account. They also may have access to the same type of research and strategies developed by larger institutions.
+
+
+hedges are the primary partiipants who participate inside the market a hedger is any individual who basically trade insidee the market many hedgers are buyers , sellers m producers and other things. To minimize the effects of these changes hedgers will utilize futures contracts. Unlike speculators who assume market risk for profit, hedgers use the futures markets to manage and offset risk. 
+
+many industries use the tisk management potential for suture contracts for a variety of reasons inside teh market steel mills are worried about everything inside the market 
+
+Understanding Trading Venues
+the future market is a dynammic market pace where the things are being traded inside the market and also provides the floor for electronic trading inside the market 
+ While trading has shifted to mostly electronic transactions, the trading pit still exists and maintains relevance in today’s marketplace. 
+
+
+Trading Floor
+historically the trading floor has been divided into a no of segmented areas called as pits where traders may face the futures
+everyone inside those participants was a member associated with a member people who havce to be a member of respective commodity place an oder on their behalf
+
+todays markets are technologically sophiscated global market places 
+ But did you know that futures trading traces back to ancient Greek and Phoenician merchants, who transported their goods for sale around the known world, opening deep and lasting global interconnections based on trade?
+ 
+ Early History
+ 
+ Historically, a forward contract set the terms of delivery and payment for seasonal agricultural commodities, such as wheat and corn, between a single buyer and seller. 
+ Volume is reported for all futures contracts. It is calculated by counting the number of contracts that have been bought and sold over a given time. You can track volume using different time intervals like daily or intraday.
+

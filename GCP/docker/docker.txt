@@ -1,0 +1,29 @@
+introduction to docker mainly we have to make deepdive inside it
+it is the only docker course we need to learn here inside this portion
+there are so many companies when application go down they 
+
+Now the first question is where are these servers running 
+ans --> servers and data centers
+what used to happen is only one application is usually running inside a server
+like there was no way to run application inside the server and then we have to add all the server
+now like imagine you are establishing a company and now what you have to do is that you can run only one application inside one server but VM ware solved the problem they did like multiple application inside one server
+still there was also a problem and the biggest problem is VM machine require their own operating system still there is huge losses inside it and there were also flaws of virtual machines 
+
+What are dependencies here it means that first of all what to do is that we have an appliction and it is running inside my computer but it is not running inside other computer thus here there are dependencies migration can also be a problem 
+like then the companies decided that companies would be having an isolation like whats happening inside the ubuntu not to be happening inside ubuntu
+
+only one operating system and also to run everything inside one of them and this is solved by containers
+
+
+
+now now what is the difference between running inside the virtual machine and then running inside the container .
+The major difference is that inside the vm you have to runin different different os but inside the container enginer we have to run inside the same os without anykind of container enginer
+docker is a container that allows us to create container and other things inside one of them
+host is as per the operating system like windows will require windows host and linux will require linux host
+runtime mainly allows to mainly start and stop the container
+the containerd is the c and cf project and also helpps in managing container
+
+run time has 2 companents one is runc and the other is containerd
+docker engine is to interact with docker
+there are 3 things , runtime , engine and orchestration
+runtime , engine and orchestration

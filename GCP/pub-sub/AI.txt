@@ -1,0 +1,43 @@
+		ARTIFICIAL INTELLENGE
+	
+	AI is all around you and also helps in self driving  cars and also emails and other things
+	Stong AI it is a machine that can act or enact as humans is known as AI
+	like it can do all the all the things that a human can also do
+	
+	Narrow AI focuses in specific task like self driving cars till a particular part
+	
+	Now google cloud ptocides a numbr of models on is one is cloud vision API
+	Like if we attack gpus then w have to use onee of the things that is GPU but when we have to use machin learning worload then it is TPU
+	
+	Now what to do if we need to create an cross platform mobile application
+	Firebase--> Build apps for IOS , android , and other things
+	means like w have a number of applications inside an firebase and wee want to transfer it to mobile then firebase is used
+	
+	
+	Containr regiiistery and artifact regiistery and the other one is artifact regstistry
+	one of the most popular places is docker hub and also we have to control access between them
+	container registery is an registery that can use of google cloud storage and can also use docker images and artifact registeery is something that can use artifact one
+		KMS--> encryption
+		secret manager mainly for API keys and also other things
+		cloud data loss prevention mainly used for DLP and also for mass data prevention and also sensitive
+		cloud armour --> cloud armour protects from run time 
+		web security scanner can help using vuneribility and helps in library .xss and other things inside them
+		web securrity scanner --> like having any vuneribility inside web deploymnt and examples are anthos , google kubernetes engine and also other things
+		
+		binary  --> ensure that only trusted peeople are there inside the containers
+		security command center --> eeverything relatd to security inside the posture
+		security is implemented inside the network center
+		container threat detection helps to make container threats like binary executed and also other things 
+		
+		Cloud native --> helps us tp get the best from google cloud architecture inside the google cloud platform and helps us to use the elasticity inside the google cloud platform
+		main goal is to increase service velocity and also collaboartion and also other things
+		
+		4 cloud services pillar --> one is microservice pillars
+		one is microservice
+		one is container
+		third is that it is light weight means that it is faster to deploy and also helps in faster reliabikity
+		container orchasteration--> kubernetees
+		last is devops
+		
+			
+		

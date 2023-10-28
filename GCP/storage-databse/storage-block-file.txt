@@ -1,0 +1,82 @@
+			Block and File storage-->
+			
+Now mainly we have to mainly learn that what is block storage file storage and object storage
+block storage --> if we want to connect our harddisk with the google cloud platform then it is known as block storage like they are persistent disk and remain constant
+
+File storage --> when we have to share a file within many instances then it is known as file storage
+Object storage --> It is mainly known as the storage inside the google cloud platform
+whenever we store an obkect inside an google cloud platform then it is known as obkect storage
+
+
+Block-->Like the harddisk you are having inside the computer then it is known as block storage because it is peristent 
+	Like there are multiple block inside a cloud platform then we have connect one block inside one VM instance
+
+Block storage are of 2 types one is the 
+Direct attched storage that is the hard disk and the other one is a pool of shared resources that are persistant
+
+	 
+File-->You have created a file inside and want to share it with your collegues then it is known as file storage
+       Like there is a file and you wanted to share it with your collegues then it is known as file storage
+
+	Media workflows need a huge way to share the multiple resources and thus we can say that they need support for video editting
+	and they need a shared resource where they can share all the resources in a faster way for which file storage is required
+
+Block storage are of 2 types one is persistent and the otherone is the local block storage
+so these are needed
+
+Like whenever we create a block instance we can create a block storage which creating VM instances and the block storage is the VM boot disk
+For accessing filestore --> Step1 ->go to search bar type file store and allow the API
+			    Step-->2The go and create a new instance
+
+---------------------------------------------------------------------------------------------------------------------------
+			Object storage-->cloud storage
+			
+	The google cloud storage is mainly known as cloud storage
+Step-->1 Go to google cloud storage(type inside the search bar) && bucket is a kind of container to all the things you wanted to insert inside the cloud storage
+Step-->2 click on bucket
+Step-->3 The bucket name you give must be unique and no one would have taken that inside the world
+Step-->4 Where to store your data inside it regional and other things
+Step-->5 choose the default storage data
+Step-->6The press create and now the bucket is being created and this is the overview now go to the folder inside downloads
+then drag and drop all the files and the folder downloads is inside the computer 
+Step-->7Then you can see that all the folders come inside them
+
+	CLoud storage classes
+	---------------------
+Cloud storage classes are needed because there are a various of cloud files like media and all for which cloud storage is needed
+Main work of storage class
+1. First of all we have different needs to access all the classes one of
+2.It is not necessary to be give equal priority to all the classes thus we need something to minimise cost and here where storage classes come like it manages the cost to less avialable classes
+
+Now how it depends upon accessibility??????
+Standard --> to be used everyday
+nearline --> to be used once in a month
+coldline --> to be used once in a quarter
+archive --> to be used once in a year
+
+Importance if cloud storage--> High durability and low latency and have less storage
+Auto-scaling and autohealing is there
+
+---------------------------------------------------------------------------------------------------------------------------
+		Object management lifecycle
+		---------------------------
+	identify the objects basis of conditions
+Object lifecycle management --> 
+1.Set storage class means the if the age of an object is above x years then delete the class
+2.delete if the class has > x years then delete the class
+Now which transctions take place one standard regional or multiregional to coldline and native storage like from one to other
+Step--> 1 go inside the bucket and then click on lifecycle and then you can set the liffecycle as per your needs
+transfering the data base from on premises to cloud
+
+---------------------------------------------------------------------------------------------------------------------------
+		Transfer data to google cloud
+		---------------------------
+	Most popular transfer is online transfer --> use the gsutil inside the cloud storage
+	Now do storage transfer service --> directly transfer to google cloud storage
+	Now both the methods are good but use which service and when
+1--> use gsutil when  the storage transfer is less than 1 terabyte
+2--> and when it is more then 1 terabyte use storage transfer service as it is meant to store large service
+
+Transfer Appliance -->if you want to transfer large data and the data is more the 20 Tb then you can go for transfer data because here durect copy paste is there so it would take less time to transfer
+
+

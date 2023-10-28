@@ -1,0 +1,187 @@
+Starting with app engine-->
+app engine is platform as a service means we have to use only the platform and nothing else
+
+Now app engine has 2 types of Environment-->
+
+Standard--> for the standard use of predefined languages
+	    inside standard we have to use the specific sandboxes 
+	    there are 2 types of sandboxes one is V1 and other is V2;
+	    
+	    V1 sandboxes are those that use Java , Python , PHP , GO(older version)
+	    V2 sandboxes are those that use Java , Python , PHP , GO(newer version)
+just provide the code and config and app engine would do all the features
+
+Flexible --> for this you can give anything but have to create docker and containers and have to run on multiple machines
+	     like here you have to create language specific containers and then use docker and then run VM instances
+	     for this reason this is flexible
+here you have to maintain all the things like scaling and healing
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Creation of Google App engine
+
+Step--> 1 Type app engine and then go to app engine admin API and then enable the API
+Step-->2 Then come to App engine and then start with it and then start with create with default settings then app engine is being created
+
+Step-->3 deployment of any application
+	then after that click on cloud shell that is the code for running and a command prompt would appear
+	now you can see cloud shell editor
+	now click on open folder and then open the default or the home folder
+	then see a folder named as Linux cloud inside the app engine folder then open that
+	now that folder has another folder downloads and then go inside it
+	you can see a folder named app engine and default service click on default service to open all the code 
+	to be deployed
+	drag the default service and put inside the cloud shell editor
+	
+Step-->4 after the creation of folder inside the cloud shell editor
+	 now you can enter into the file by pressing cd default-service
+	 
+	 mainly the confrigation of the python file is in the yaml file like which confrigation of python is needed
+	 
+	 now what to do to authorise the access write the command(gcloud config list) to authorize the project
+	 gcloud config set project learning-ao to give the access of the project and enter the project
+	
+	
+Step-->5 now everything is ready to deploy and then click on 
+	 gcloud app deploy and the deployment is started
+	 now the deployment is successfully completed and we have got the application
+	 now to see the deployment we have to click on --> google app browse and there a link will appear
+	 and then click on that link to start the file
+	 you can change the text file inside and then can print
+
+Now the app engine have been successfully created
+You can check the status of app engine by clicking the app engine inside the search panel
+Now to check the services , version and the instances by clicking
+
+gcloud app versions list
+gcloud app services list
+gcloud app instances list
+ -----------------------------------------------------------------------------------------------------------------------------------
+  
+  Keypoints-->
+  Now you just change the text and then create another version means deploy once more and then you can see that here 
+  what happens is that you can check the traffic list and here you can see all the versions that are running
+  and you can see the traffic split  would be 1 in the second one and 0 in the first one
+  
+  Now you can check the version of a particular thing by and get the link by pressing this 
+  gcloud app browse --version (version name from versions)
+  
+  -----------------------------------------------------------------------------------------------------------------------------------
+  					Kubernetes
+  	
+  	Kubernetes is the most famous container orchastration is the best cluster management solution
+  	Each cluster have different types of Virtual machines
+  	It provides all features that has container orchastration tools
+  	--> auto scaling
+  	--> auto healing
+  	--> load balancing
+  	 mainly like auto upgrade and auto scale features are also there for them which is required
+  	 Kubernetes used container optimised OS and used to optimise containers
+  	 
+  	 
+  	 /////////// Deploy a simple microservice at kubernetes
+  	 make a project named kubernetes and then search for kunernetes engine then enable the kubernetes api
+  	 
+  	 now start on create cluster
+  	 after that you can see 2 things one is standard and the other is autopilot
+  	 standard means you have to confrigure but in autopilot you dont have to do anything
+  	 
+  	 now click on switch to standard cluster and then confrigure
+  	 take the defaults in each and everything
+  	 
+  	 now at the side there is a setup guide and then click on 32 gb quota and then the first cluster would be created
+  	 now first cluster would be created
+  	 
+  	 now open the cloud shell
+  	 and then connect the project by copying the project id and run it inside the shell
+  	 after that you can see that the kubeconfig is generated for my-first-cluster(mainly the name)
+  	 or by clicking the connect and the  run in cloud shell
+  	 now kube config entry is created
+  	 
+  	  // deploy a microservice into kubernetes
+  	  // here main thing is that if we use gcloud then we are using the google cloud wala thing but if we use kubectl it means that there is a deployment 
+  	  of a microservie inside the container
+  	  
+  	  for the deployment we have written a command (kubectl create deployment hello-world-rest-api --image=in28min/hello-world-rest-api:0.0.1.RELEASE)
+  	  now it would day that rest-api is created
+  	  
+  	 for deployment details --> we can use(kubectl get deployment)	now you can see all the deployment details
+  	 
+  	 for accessing all the details insid it we have to expose all the commands
+  	 now to deploy it inside all the services we have to press like basically to generate an url --> kubectl get services
+  	 
+  	 to check that it is healthy or not we have to use 
+  	 curl (ip): portnumber
+  	 now we have taken the external ip by pressing (kubectl get services --watch)
+  	 now we can see it by curl (ip adresses)
+  	 in this way we can create a deployment and used the load balancer
+  	 finally the load balancer is created
+  	 
+ -------------------------------------------------------------------------------------------------------------------------------------------------
+  	 
+ 
+ // now if we need to scale the microservice and create more instances then we can use 
+ kubectl scale deployment hello-world-rest-api --replicas=3
+ now once again deploy by pressing kubectl get deployment
+ 
+ now to see all the instances we can use pods --> kubectl get pods
+ -------------------------------------------------------------------------------------------------------------------------------------------------
+ How to setup autoscale the kubernetes
+ now press kubectl autoscale deployment hello-world-rest-api --max=4 --cpu-percent=70 to autoscale and then it would be autoscaled
+ 
+ -------------------------------------------------------------------------------------------------------------------------------------------------
+ now its the tome to delete the service thus we need to delete the service and the main work to be done is 
+ kubectl delete service hello-world-rest-api (first step)
+ 
+ 
+ -------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ Google cloud functions
+ Imagine you want to execute a code but the fact that you want to execute it after a particular function
+ Its mainly like when an event happens inside a cloud storage you want to run the code 
+ like event --> execution of code then what to do in this case
+ 
+ here the picture of cloud functions comes into picture
+ now cloud function is about how to scale and avialable about it and all those thus here we not have to worry about each and every thing
+ 
+ 
+ -------------------------------------------------------------------------------------------------------------------------------------------------
+ how to create cloud functions 
+ 
+ Step-->1 first step into my first project
+ Step-->2 find in search bar about cloud functions and then click on create functions
+ Step-->3 Enable all API's required
+ Now inside the panel there is generation means that here one thing is that the maximum timeout;
+ Maximum timeout inside 1st generation is 9 mins while in gen2 is 60 mins and also the space allocation is more
+ now just name the function name and then also keep all the things general
+ 
+ 
+ Main(Allow unauthenticated invovations) and uncheck the HTTP and then now click on Next
+ 
+ And then click on deploy after that the invocation is also done inside the cloud function
+ 
+ 
+ How do you build serverless event driven functions that means if an event occurs then only you can runn the cloud engine that is by cloud functions
+ 
+ -------------------------------------------------------------------------------------------------------------------------------------------------
+ Cloud Run-->
+ 
+ Mainly this can be used to run when there is only one container instace like we donot have to create clusters and then run about inside it
+ 
+ In the previous lecture we have learnt about kubernetes 
+ Container to production in seconds like this is an easier way to run the applications inside kubernetes
+ means like we have a container or an rest api then we can just deploy it within seconds
+ 
+ now we have to create a cloud run and the fact is that we have to make it like that only
+ Step-->1 Click on cloud  run
+ Step-->2 After that start on create on cloud run
+ Step-->3 after that select a container from the demo containers (mainly choose the default hello world from the container registry)
+ 
+ Step-->4 start the cloud run and then see how it works
+ In addition there is anthos means we can run kubernetes clusters anywhere
+ Anthos means to be able tu run kubernetes cluster anywhere
+ here you can run a combination of clouds anywhere and some of the nodes can eveen be on-premise
+ 
+ 
+  
+  

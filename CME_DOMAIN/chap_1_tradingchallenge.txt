@@ -1,0 +1,170 @@
+	GETTING STARTED WITH BROKER
+	
+
+The future exchange iis a place where the future orders are delivered , received , buy and sell orders are created to match.
+Brokers play an important role inside the future market
+Brokers are the main link between the traders and the futures market and they have also many functions means that they provide an online platform to people submit orders and also connect traders to exchange
+Since individual traders can never rely on these thus they need someone inside like who caan help in exchange and flow of money and can also maintain the amount of stoks been placed
+Since individual traders cant interact independently inside the stock exchange thus they need to maintain with the brokers who could see the overall working of the trade
+
+Technology
+--> early the orders were placed on a phone call and sometime it may caused also some problem and now the fact is different because it is like all the individual platform trade on an online platform . The technology allows to broker to place order and perform analytics and other things automatically based on predefined conditions
+
+The cost and compexiity of the software is not same for each and every broker thus we need to say that we would choose a broker as per the needs
+
+Cost
+The fees the trader has to pay for trading it is known as the brokerage and commision ans the trader use the broking platform he / she also has to pay that fees also
+
+COMMISSIONS
+each time you trade you have to pay an amount to the broker inside the market and this is known as commission
+There are 2 types of commisions one is commision to broker and the other one is commission to the exchange
+
+PLATFORM FEE
+The platform you use , you have to pay the fees for that depending upo the amount of trade yu do and also the amount of time you use the platform , the fees can be waived or increased
+
+Fees may also be charged for deposits, withdrawals and other services - which will be listed in the brokerage agreement.
+
+another things you might need to pay is the data feed fee which is highly required
+
+Initial deposit --> each of the broker has an initial deposit that is required to give time to time to each and everyine thus this is known as initial deposit
+means the min amount required to open an account is known as initial deposit
+
+margin requirements --> it means that there is a specific margin at which an broker can trade off and this margin is called as margin requirements
+means till this limit the person can trade else he / she cant trade
+
+OVERNIGHT TRADING
+Some brokers need to trade overnight inside the market because of high deposits or special permissions thus this is allowed by some brokers which traders highly require
+
+contracts avialable for trade --> some require high amount to trade some have high tick size thus we need to see each one of them and thus we have to see that which to trade and which to now based on our own risk
+For example, E-Mini S&P 500 futures (ES) is one of the first contracts enabled for traders. Whereas contracts such as Natural Gas may need to be requested to trade.
+
+
+
+	SUBMITTING A FUTURES ORDER
+	
+	How to submit a futures order?
+	Futures order can be placed by the execution platform given by the broker . Using a broker of your choice can make the future order placed inside a stock exchange
+	
+	Futures order can be placed by the execution order of the briker inside which platform he / she wants to place the order inside the market
+	All brokers software has an option to allow future trade but each software look slightly different
+	Inside the execution platform the traders can drag and deop all the orders which is commonly known as DOM or market DOM
+	
+	Most of the brokers provide an desktop and also an mobile application inside the market means ansyone can see about his / her trade by standing anywhere inside by having an internet connectivity
+	
+	Real-time streaming data has also leveled the playing field for individual traders as they are no longer looking at prices from 15 to 20 minutes in the past.
+	The information would be having like no of orders , how many orders , tick sie , no of orders traded per day and also price level of each order and also many more.
+	
+	Main:: all electronic orders inside the CME group is there through globex electronic trading platform
+	globex electronic trading platform
+	globex electronic trading platform
+	orderes are matched thriugh algorithm and then proceeded
+	
+	What Contracts to Trade
+	traders will analyse which contract to trade and which contract not to trade thus we can say that there are many kinds of contract to trade and also many kinds of contract not to trade like a contract has many things like dollar value per point , interest , rate products and etc
+	
+	like which contract to trade and which contract not to trade inside an exchange is known as what contracts to trade
+	
+	Expiry
+	After selection of contract they need to now see that which is to be traded and which to be not thus they need to see the expiry date most of the contractors keep the epiry date to the nearest date so as to trade on a daily voolume where as an contracyor can keep the contract if he / she wants to keep it inside the exchange
+	Buy or Sell
+	
+	if price up then sell and if price down then but they can use all the analysis and algorithms to but and sell teh contract
+	
+	How Many Contracts to Trade
+	based on the amount side the trader decided how much amount to trade or not like position sizing is an important factor inside one of these . they need to see the risk and accordingly they can start investing on the no of contracts they need to invest
+	
+	
+	Execution Price
+	traders need to select the price it is an total anticipation means that the price can move up or down dependding upon the requirements and the way the order can be filled inside the market is totallt depends upon each other
+	
+	Stops and targets can also be added to the DOM as plans to exit for either a loss or profit. Stop loss and orders to exit a position at a profit can be placed to trigger automatically or can be entered manually at the time the trader wants to exit the position.
+
+	Margin
+	As you make your decision about the contract size now you want to check about the marfin this means you need a portion of total cost to be inside into your account
+	assume e mini s&p this means that e mini s&p will have an stock side of 500 dollar and like that only you can trade off having an amount of 500 $ can make you trade off at 12500$
+	
+	margin showws the main amount how much can be traded what is the amount to be trade dand how much is the final amount
+	Most common type of order is market order , limit order , stop order
+	
+	
+	MARKET ORDER -->
+	------------
+	
+	Market order can be divided into 2 types one is market limit and is market protection
+	market order into 2 types one is market limit and the other is market protection
+	
+	a market limit order is placed at the best possibel proce at the market and it is like the limited order is booked inside the market at a particular price
+	 If the market limit order can only be partially filled, the order becomes a limit order and the remaining quantity remains on the order book at the specified limit price.
+	 
+	 A market order at protection cant be filled with the best price here it is like filled inside the market inside for a price range and also have a bid price so that it is like a protection for a specific market the rage is generally the current price - protection to current price + protection
+	 
+	 
+	 Limit Order
+	 limit orders generaly limit the buyer to sell at the maximum buy price and the seller to sell at the minimum sale proce means that limit orders generally limit the buyer to sell at max purchase price and seller to sell at min purchase peice
+	 
+	 
+	 
+	 STOP ORDER -->
+	 stop order is a type of order which doesnt directly go inside the books . It is like the trader has to stop at that price at any cost
+	 Typically, futures orders are submitted as day orders. This means that the order is only active until the end of that day’s trading session, if the order does not get filled.
+	 
+	 if a seller wants to but a trade at a certain price then he or she has to use the limit order
+	 
+	 
+	 
+	 ------------------------------------------
+	 What Happens When You Submit an Order
+	 
+	 As a trader when u click on submit an order then what you can do is that ther are an lot of checks inside the exchange means that first your order is verifiedby broker and then the exchange abd the matching engine if the order is cleared by the clearing firms then then transfer and also all the things are been done instanteously
+	 
+	 Broker Verification
+	 the first is the broker verification means that the order placed matches your account  , number of contracts suffieient margin inside your account and other things 
+	
+	brokers can also add other warnings like the no of contracts to be teaded at a time is there that much margin to order all the things allow the trader to place the order above the bid price 
+	
+	Exchange Verification
+	the exchange will verify that the order is placed and not it will see it by the mathing algorithms means that if the order is accepted it vecomes an working order inside the stock exchange 
+	it means now you are holding futures contract inside your account
+	
+	
+	PRICE CONTROL
+	when limit orders are placed at a pace more that the stock exchange then it is not allowed inside the stock exchange to be traded inside the exchange means that goal of price control is to make sure that there is no unrealistic increase inside the stock exchange
+	
+	
+	POSITION AND RISK MANAGEMENT
+	position and risk management for each of traders --< risk management is one of the important factors the amount of capital for each risk is based on many factors
+	whenever we buy a trade like there is risk associated ith it
+	maket traders must have an established plan which means that the amount of risk to be taken inside one of these is to be highly established
+	risk can be limited by the trader all process invloved inside the process will have risk exposure
+	
+	3 variables to manage risk
+	first variable is deciding which future value to use means that some market are volaltile and have greater tick size 
+	first is which future contract to trade
+	some markets are volatile and have greater tick vakue to trade means that it is related to the market flucations means that in e&sno there is a tick size of 50 and 10 ticks means 5000 points move up and down\
+	The second way traders control risk is the number of contracts they trade. Market exposure is increased by more contracts and decreased by less. Traders should trade the number of contracts in their account based on risk scenarios for that number of contracts, and not simply trade the maximum number of contracts that their broker will allow based on initial margin requirement
+	third is setting stops mmeans that we have to set stops inside one of them and also we have to see that when to set stops and when to not 
+	first is which to but
+	second is how much to but and the third is stop use karna sikh jao 
+	
+	
+	
+	Exchange Controls
+	risk cant only not be managed by u at the exchange there is also some market exchange policy that helos to change the requirement
+	this is done by setting margin requirements and potential losses for each and every position
+	Margin is used to limit risk at the broker level, as it requires traders have sufficient capital in their accounts to back the number of futures contracts they have open in the market at one time.
+	most of brokers keep the value of margin inside the exchange
+	to keep track of profit and loss we have to see that which amount to be paid and wwhich amount not to be paid 
+	
+	
+	After establishing each and everything now its the time to close the position
+	now for closing u need to take the opposite position inside the contract means that if there is an open position then you need to close the position inside the market
+	
+	
+	Exiting a Rising Position
+	one way to exit a order is by placinf an exit order that will make to an limit order and it would get exited
+	somettimes exiting order in advance may be pros and cons means that exitinf order inside teh stock exchange at that time can be a pro means that placing the order in advance doesnt have to again make fill a form but cons is that of the proce is falling then like he / she have to close the order by seeing the time
+	
+	-------------------CLOSE--------------------------
+	
+	
+	

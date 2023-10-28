@@ -1,0 +1,28 @@
+		Baremetal cloud-->
+	Now we have to talk about how to get rid of hypervisor
+	
+Google compute engine--> Whenever we start creation of a VM instamce then one thing is dine that is creation of multiple VM instances and each of these instances is being hosted at the host
+Now creation of multiple VM instances at a single place is known as virtualisation
+Creation of multiple VM instances inside one host it is known as virtualisation
+
+
+Hypervisor is the one that creates the virtual machine and runs it like somebody who creates the virtual machine is known as hypervisor
+but to use the hypervisor we have to give the hypervisor tax and we dont want to pay the fees
+so to avoid the hypervisor tax we need to use wiyj baremetal
+
+Baremetal--> Google cloud provides with customisable and dedicated software at an affordable price
+Baremetal is free from google cloud , it is also preinstalled and also customisable and this also allows which operating system to choose
+
+
+Google cloud VM ware engine
+VM ware also provides virtualisation solutions and also provides different kinds of workloads
+Mainly if we cant virtualise anything then VM ware allows us to virtualise each and everything and also provides solutions to it
+
+Just connect the infrastructure inside the google cloud and then all your things would be migrated inside the google cloud
+Now you do not need about anything means everything is being created by yhe google compute engine and alsos is better than other engines
+
+
+Migrate compute engine --> you can migrate it from any place to any other place like google cloud , amazon AWS and also microsoft azure these are the 3 things that can be used and done accordingly
+
+You can also move them all into batches like you can create a number of google machine clouds and can also move into batches like batch shifting can also be there
+We have to also check that is to cut over the cloud and also move all things to google cloud.

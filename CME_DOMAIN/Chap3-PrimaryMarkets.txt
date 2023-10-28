@@ -1,0 +1,122 @@
+			PRIMARY MARKETS
+			----------------
+TO read --> right issue and prefential issue
+		
+-->Role of primary market--> Primary market mainly helps to issue new securities at the market . The securities are presemt at the face value. They can also issue it in an discounted price / premium price mainly it helps to government securities and other buyers to deploy new securities
+
+--> What is face value ?
+    Mainly this is the price that the issuer gives to the market at the price to be sold
+    for securities it is the price sold by the issuer 
+    for bonds it is the price at the maturity and for debt also the same but here is the amount repaid after maturity
+    
+ --> Premium and discount -->
+     Securities are dealt at rs 5 , rs 10 or rs 100 which is known as its face value or par value but the fact is that 
+     when the security is sold above the face price inside the market then it is known as premium and when it is sold 
+     below the face price then it is known as discount
+     above face price --> premium
+     below face price --> discount
+     
+-->Why do companies need to issue shares to the public?
+   The funding capital and the money invested maynot be sufficient to make the business strong thus there is invitation of
+   public inside this and the company provides them ownership or we can say equity of that company and also shares capital
+   Once the money is held then the government allots all the money as per the rules made by SEBI
+  
+-->What are the different kinds of issues?
+
+Initial public offering --> mainly when an unlisted company makes an offer for selling of fresh securities or existing securities then it is known as initial public offering means that if a company is there and also there and it is unlisted and also makes its securities avialable for public then it is known as IPO
+
+Further issue is that when an listed company offers selling the securities of compaany then it is known as further issues
+What is meant by Issue price?
+ 
+ It is the initial price at which the company shares are offered to a buyer the price may go up and down as per the demand of the customer. 
+ 
+ What is meant by Market Capitalisation?
+ Mainly wht is the amount that the market is offering to the general public is called market capitilasition
+ Means that if there are x shares and price of each share is y then x * y is the market capitilasition 
+ means that how much shares can be given to the market by a certain company is called market capitilastion
+ 
+ 
+ What is the difference between public issue and private placement?
+ When the issue is made to the public (means above 50 persons and not made to a selected set of people) then it is known as
+ public issue
+ When the issue is made to a selected state of people then it is known as private issue
+ As per act the company becomes public if it has more than 50 people inside them (or 50 or more people are allocated)
+ 
+ 
+ What is an Initial Public Offer (IPO)?
+ IPO is the selling of securities by the companies inside the primary market
+ It is when an unlisted company comes and makes a fresh issue or sells the existing shares then it is known as IPO this is known as IPO
+ 
+ 
+ Who decides the price of an issue?
+ 
+ The price of an issue is been given by the merchant or the issuer . SEBI doesnt play anykind of role inside price fixation
+ Mainly there are 2 kinds of issues one is the commpany bankers would decide the fixed price means it wont go up and down above or below the price
+ 
+ And the another one is that when the company leave the price to the market , as per the market the price would go up and down
+ 
+ What does ‘price discovery through Book Building Process’ mean?
+ 
+ Book building is mainly used to predict the price of a stock or mainly used for peice discovery. Mainly here bids are used like whenever the ipo is open then bids are there and also also collected from investor up and above the floor price and then the offer peice is determined after the closing of the bid system
+ 
+ What is Cut-Off Price?
+In a Book building issue, the issuer indicates the floor price and this issue price is called cutoff price means that below this price no one can trade here also
+
+What is a Price Band in a book built IPO?
+This is the band within which investors can bid. It cant be more than 20 percent of that price and if the proce band is revised then it has to be informed to the officials in this case the bidding period is increased to more than 3 days and all can invest between 10 days
+The cap must not be more than 120 percentage 
+
+Can open outcry system be used for book building?
+Yes this is allowed inside SEBI and every bidding can be done online inside a portal and also it is transparently known to all the bidders after the submission
+
+
+-->How does one know if shares are allotted in an IPO/offer for sale? What is
+the timeframe for getting refund if shares not allotted?
+As per SEBi the basis of allotment is about 4 working days and as soon as the security or shares been transfered to the peron  then details of demat account is been done and if it is 5 days means that the retention period is been over
+
+What is ASBA?
+ASBA full form is Application supported blocked amount
+ASBA is an application containing an authorisation book to block the application for suscribing to an issue> mainly the amount would be only debitted if an only if the value of the amount is finalised 
+Now it has become manadatory to issue the public issued through ASBA only
+
+What is the role of a ‘Registrar’ to an issue?
+The role of registrar is much importane because he / she relases the issue after deleting all the invalid applications , registrar finalises the valid applications that are needed to be taken and thus we can say that then registrar after doing all these is also responsible to send certificates
+
+The lead manager is also responsible and contacts with registrar to collect the bank details of valid applications
+and then the value is finalised
+
+Does NSE provide any facility for IPO?
+Yes the NSE provides electronic trading facilities and helps to make the businesses by book building system
+
+
+What is a Prospectus?
+Mainly what happens is that there are a large no of companies who come and sow investors a price but there is no written format thus we need a prospectus about the company where each and everything is written about the company and if the company abides the prospectus then strict actions can be taken by sebi
+It mainly makes the investor understand about company details and all those fact after seeing which a buyer would apply
+
+What is an ‘Abridged Prospectus’?
+means a shorter version of prospectus that contains all the salient featues of the prospectus
+
+What does one mean by ‘Lock-in’?
+means the freeze of sales after a particular period of time means SEBI ensures that the promoters who are there for raising a public issue shall continue to hold minimumpositions after public issue
+lock in means freeze after a particluar period
+
+What is a ‘Listing Agreement’?
+At the time of listing securities of a company on a stock exchange, the company is required
+to enter into a listing agreement with the exchange. The listing agreement specifies the terms
+and conditions of listing and the disclosures that shall be made by a company on a continuous
+basis to the exchange.
+
+What does ‘Delisting of securities’ mean?
+The term “Delisting of securities’ means permanent removal of securities of a listed company
+from a stock exchange. As a consequence of delisting, the securities of that company would
+no longer be traded at that stock exchange.
+
+
+Now can indian people buy foreign trades
+The anwser to this question is yes indian people can buy foreign trades by fccb and adr indian people can buy trades via these 2 methods
+
+American depository receipt is the recepti made after buying american depository bonds
+ADS is an us dollar equity share made because of american people to share mainly it is for American peoplle to invest in non us countries and also GDR is something that allows the issuer to raise in 2 or more markets inside USA 
+
+FCCB is issued by india for the conversion of foreign bonds and also helpful in converting indian bonds to foreign policies.
+

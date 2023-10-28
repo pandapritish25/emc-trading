@@ -1,0 +1,20 @@
+whoami --> to print the username
+sudo su--> go inside
+apt update(inside root) --> update
+apt install apache2 --> install apache
+ls /var/www/html --> enter inside the apache service
+echo "text" > /var/www/html/index.html put inside the html
+
+Startup Script
+
+#!/bin/bash
+apt update 
+apt -y install apache2
+echo "Hello world from $(hostname) $(hostname -I)" > /var/www/html/index.html
+
+Startup Script for custome image
+
+#!/bin/bash
+apt update 
+echo "Hello world from $(hostname) $(hostname -I)" > /var/www/html/index.html
+service apache2 start

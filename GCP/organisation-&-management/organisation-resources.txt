@@ -1,0 +1,59 @@
+		MAINLY ORGANISATION OF RESOURCES INSIDE THE CLOUD PLATFORM
+	
+	Now we are going to know the resource hierarchy inside the gcp
+	now the hierarchy inside theis is 
+	--> organisation > folder > project > resources
+	
+	the resource hierarchy are --> organisation > folder > project > resources
+	and here you can create each and everything inside all the things
+	
+	
+-------------------------------------------------------------------------------------------------------
+Billing account--> Now whatever we use need to have an billing account means that whatever we do need to have an billing account and ti be very precise every project needs to have one specific billing account thus it is important to create one billing account
+Now we have to use Self served and also invoiced billing account here because both of them are highly required
+
+Self served means we have to manage all the billing amounts 
+
+	IAM BEST PRACTICES
+Principles of least previlage--> give least possible previlage and provide least possible accesses and then inside 
+and whenever possible create service accounts
+
+You can use one service account for different apps still it is very useless to do it because one thing is that is synchronisation and also traffic means that if we use one service account then we have to but using different service accounts for different applications can help us inside synchronisation
+
+
+constant monitoring and also supressing means that we have to constantly monitor all the applications and then we have to also supress the work means that if we have a sensitive work then divide it between 2 individuals thats the entire point
+-------------------------------------------------------------------------------------------------------
+
+How to connect the cloud network with an onpreise network
+How to connect a clout to an network is like this by setting up an VPN
+
+Cloud-VPN --> implement a vpn tunnel
+There are 2 types of VPN one is high avialibility
+Classic VPN  the difference between the 2 VPN is that one supports only dynammic and other supports bith static and dynammic allocation
+High avialable and the other one is classic
+
+Cloud Interconnect-->
+High speed interconnect means that there is a physical coonnection between the network and other things
+Data through could interconnect is via traffic goes through a private network
+
+
+-------------------------------------------------------------------------------------------------------
+User identity management inside Google cloud-->
+
+But the fact is whenever it comes to enterprises then we dont use personal gmail accounts
+Email used for free trial account is --> "SUPER ADMIN"
+Mainly what happens is that inside an organisation we cant use an personal account and we have to make something that is accessible to the entire public
+In this case we can use google workspace and we can use google workspace
+and if it is using anything other fedrerer means that if it is using other premises then what we need to do is we can link it with the google cloud platform
+means that we can cater it with the google cloud platform
+
+ORGANISATION POLICY-->
+How to enable centralized constraints on all resources like we havr to confrigure all the policy
+and we have to allow all the resources and all the things inside an IAM
+
+-------------------------------------------------------------------------------------------------------
+INENDITY PLATFORM --> mainly responsible for the identification and authorisation to the end users means that if we start cloud IAM  is used to give access to start users inside an organisation but inside the cloud identity platform we need to use something inside for the end users and this is known as identity platform
+It supports inside each and everything like mail or like phone number etc and also uses multifactor authentication
+
+
+		

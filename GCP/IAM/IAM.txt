@@ -1,0 +1,100 @@
+			IDENTITY AND ACCESS MANAGEMENT-->
+			CLOUD IAM
+		--------------------------------------------------
+
+primary authentication and authorisation inside the google cloud platform
+We run a number of applications inside the cloud platform and each one of them has a particular identity
+These identities can be human and nonhuman
+Inside google cloud identity management provides all the services and helps us to allow which service to take or not
+Mainly it helps is allowing of resources inside the google cloud platform
+
+
+It is all about 
+-->Authentication --> If the current application is good or not
+-->Authorisation--> maily it would authorise the services and would give access to all the services
+
+Cloud IAM also provides granular actions means that it limits a single user inside a specific action for specific ip address means it can limit one user to a specific window to a specific ip addresses and all that
+
+
+Example-->
+Lets assume we have to provide resources to access and manage the resources with me to my collegue
+so all the examples are like -->
+
+	Mainly the genric concepts are 3 concepts-->
+	--> Member--> My collegue (Whom to provide)
+	--> resource --> specific cloud storage bucket(what to provide)
+	--> Action --> upload & delete objects (What to do)
+	
+Now apart from it what does google cloud have --> 
+	Roles --> mainly they give access to a particular thing irrespective of members and all
+	
+Now if members are not known then how can u assign all the roles to members ?
+	Policy-->Here this is used to assign roles to a specific member
+Here it is totally different from all these and here role means that giving access to all the members and policy means that giving access to a specific members
+
+
+Now giving access to someone is known as roles but there are also 3 types of roles-->
+
+Basic Roles --> These are the ones that adjust with basic ones and doesnt have any kind of relationship with gcp
+There are 3 kinds of basic roles --> one is viewer / editor / manager
+Mainly what happens is that viewer --> can only view the object
+			    editor --> he / she can view the object and also can change the object
+			    manager --> he / she can do each and everything along with the  billing
+
+Generally dont use these roles inside production because they are earliest version and are also not good to use
+
+Predefined Roles --> These are the roles that are managed by by google cloud and are present in a predefined manner inside the google cloud
+Custom roles --> sometimes we maynot have the role which we want to assign to a particular member thus we have to create that role and this is the custom role
+
+
+
+-------------------------------------------------------------------------------------------------------
+Lets start with IAM
+Step-->1 Type IAM inside the console
+Step-->2 Come to grant access and then press the email id and the role which you want them to give
+
+Now we have given access to all the mails but the fact is that what to do if we have to if a person says he has not got the access to the role or there is an problem inside the id
+
+So we have made this also possible
+
+--> policy trouble_shooter --> we have to go inside the policy trouble shooter and then choose the E-mail and then we have to enable which api to choose and click on check api call
+------------------------------------------------------------------------------------------------------
+Service Accounts-->
+
+Mainly what happens is that we have the accounts but we dont want to use anyones personal credentials thus here the use of service accounts is there like its like a company gmail id where we have not to link it to the personal mail id and this helps not to use personal credentials
+
+--> There are a few kinds of service account one is default service account
+
+--> Default service account--> mainly what happens is that a service account is created whenever the application is in use
+--> User managed  --> mainly handeled by google cloud
+
+
+Now how to create a service account?
+Step--> 1 Go to the IAM console and then click on service account , click on start account
+Step--> 2 Now start on that and give a name
+Step--> 3 Give a role to them
+Now click on ok and your service account is created
+
+Now where we can set the service account-->
+First go to the compute engine and then start in create instance and after that you can see that you have come to the service account type there you can edit the access and all the things inside the service account
+
+
+How to give access to a service account bucket like service account bucket?
+
+Step-->1 go to the service account inside IAM and then click on create instance
+Step-->2 after starting we have to then we havr to gove name and then choose the role as cloud admin beta
+Main is who has the access to use the service account and then click inside done
+
+Step-->3 go to the VM instamce and then start on create
+Step-->4 go to the service account and then start with seeing the service account and then click on the service account that is just created
+Step-->5 then click on create and the instance would be created
+Step-->6 now go to the SSH into it and then start with the shell
+
+Step-->6 now type gsutil mb gs://bucket-in28mins-helper inside the shell and see what happens
+--> It will definitely show error  to fix this error
+
+Step-->7 we have to go inside the IAM and then to the service account it has shown error and then we have to start that engine and inside IAM we have to edit and give permission as storage admin
+
+Step-->8 now type gsutil mb gs://bucket-in28mins-helper inside the shell and see what happens and the creation is successful
+Step-->9 now you can type buckets and then you can see each and everything inside the bucket.
+

@@ -1,0 +1,88 @@
+			INTRODUCTION TO DEVOPS
+			-----------------------
+			
+	Now mainly whar is devops and to what things it is related
+	Mainly it is to get better at 3 things
+	
+	Now to build good software you need to create a good communincation and devops helps to make everything inside a single team
+	
+	Mainly there are 3 things one is feedback one is automation and the other is communincation
+	and it brings all the 3 things together means that here there are 3 things one is business & development and the last one is operations
+	Mainly bring teams together and also testing all the teans together and also they are much important
+	
+	
+	
+	DEVOPS --> CI & CD
+	-------------------
+
+Mainly what happens is that inside devops there are CI and CD practices that mainly means that
+continuos integration and continuos deployment
+continuos integration means that continuosly run it inside all the things and also deploy them inside a container
+
+continuos deployment means that you must also deploy to check that it is working fine or not
+and also continuos delivery means we have to make production costs and also we have to make all the production delivery inside it
+
+CI & CD analysis means that
+Static code analysis means that we have to check that if our code is having best practices or not inside the compiler
+and also security code analysing software that helps to know that we are using our best practices or not
+
+static and the other one is runtime means that during the time of running shall we make it or not
+so mainly we have 2 things inside the CI and CD means static and the other one is runtime 
+
+
+Now how to implement inside an CI and CD platform
+
+Now you have implemented a code but the fact is where to store it here the cases of cloud storage repository comes means we have implemented all the codes now we need a repo to store and thus we can store each and everything inside the cloud repository
+and it is also based on git
+
+
+containter registery means that we have to store all the docker images all the things inside them
+
+now jenkins and other things can be used to build
+
+Now we have container registery and also cloud storage repos--> now what we have to do to run them inside this inside the cloud container for which we need a cloud biuld thus wwe have to use jenkins and also cloud  builder
+
+
+	STEPS TO RUN AN APPLICATION INSIDE GOOGLE CLOUD
+
+STEP->1 now store each and everything inside the cloud storage repository
+STEP->2 now build a docker image inside them
+STEP->3 store each and everything inside a docker or container registery
+Step->4 deploy docker image to cloud run
+
+store code in cloud storage resources
+build a docker image and store them inside a container registery
+now deploy a docker image inside the cloud run
+
+
+	INFRASTRUCTRE AS CODE
+	----------------------
+now we need to create a infrastructure for an application code means that we can write a script to run the entire application inside them
+now making the script you can bring changes and can also bring repetability inside your code and can also help them to start all the code inside
+you can usse terraform to provision all the things inside google cloud platform
+
+
+		OPERATIONS
+	Mainly what kind of operations google cloud provides
+	
+	monitoring and alerts --> it gives you alert about all the thigs that are gonna scheduled and also we can monitor each and everything inside the GCP platform
+	You can also make cloud looging which helps to make you see which cloud part is not running
+	now about error logging is also there and also many kinds of logging is there inside google cloud platform
+	You can debug an application and this is known as cloud debugging
+	You can also trace the microservices inside the GCP platform means that you can also see which microservice is moving at what place
+
+all exceptions are stored in error handeling
+
+
+
+		SITE -RELIABILITY ENGINEERING
+	
+	SRE teams foocus on each and everything that is like latency , performance and all the stuffs means that it provides management , minitoring and all other things
+	
+	manage the service level objectivess
+	minimise toil
+	move fast and reduce cost of faliure
+
+Now the best practices for SRE is 
+SLI service level indicators means that the quantitive measures that can make the correctness
+

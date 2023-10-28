@@ -1,0 +1,188 @@
+Google cloud --> module1
+cloud compute engine --> start
+
+Google cloud platform
+
+// compute engine --> Module--> 3;
+
+Step-->1 After login into your google cloud then come inside the cloud console and then type compute Engine and then click on create instance
+
+Step-->2 After that name must appear --> click my first project
+	 Then add lables like environment and other things like add lables such as (Business & sales) then (Environment & dev)
+	 Dont change the region and zones
+	 
+	 Then come to machine confrigation and choose (E2 for general purpose) for  (C2 computer optimised choose) and default for memory optimised
+	 Then come to boot-disk and then choose the respective operating System like which operating system to choose
+	 Then come to firewall and then start HTTP traffic because others could see all the things
+	 After that click on create
+	 
+Step-->3 After your vm instance is created then it would be showing you a green tick and the instance
+	 There is an external ip which you can share others to show the work
+	 Now we have to SSH means confrigure the VM and click on SSH and then a VM will appear
+	 
+Step-->4 whoami this can show your username
+	 pwd and ls for directory and files
+	 Now then sudo su to enter thee root folder and then click apt install for installing apache
+	 copy the root of the folder and then paste it inside the command box like ls /var/www/html
+	 Then you will find index.html
+	 To make changes type something like echo "text" and then the text is created and then push it inside the folder by
+	 echo "text" > /var/www/html/index.html
+	 Then refresh the page your desired thing is created
+	 
+	  
+Step-->5  The main problem is to make the External IP adresses always same and the fact is that we have to do it by making it static
+	  First stop the VM and then you can see that the external ip would disappear
+	  Then again start you can see that the ip adresses is changing thus we have found a new solution
+	  
+
+	  Go to VPC networks and then enter into IP adresses and then go to external IP adresses
+	  Then there are 3 dots where promote to Static addresses is written click on that
+	  
+	  Then again come and click on stop of the VM instance you can see that the instance has stopped thus the io adress is not changed
+	  Thus this is the way to make the VM instances static
+	  
+	  Then after using it you have to delete the static addresses and then you have to go to VPC and then delete the addresses
+	  First assign it to none
+	  And then release all static addresses
+	  
+	  Thus external adresses are those who change after they are being stopped
+	  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+							Now start with startup script
+Earlier we have to start a VM and then we have write everything inside the VM for which it was hectic
+Now startup script can redduce the work
+
+Steps
+Step-->1 First create the VM instance and go till allow HTTP service
+Step--> 2 Click on Management and write a startup script(it maynot be visible thus see carefully and then start the startup Script)
+
+Step--> 3 Now write the startup Script as written inside the VM one and thus see the bash file attached and then write the startup script
+Step--> 4 Now you can see that after creating an instance of that VM then click on the addresses and you can see that the VM is auto comfrigured thus we can see the usage of a startup script 
+
+Still this is a long process  :)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+						Thus we have to use Instance Templates
+Define everything from the beginning and then after the start of a VM it would start
+(Once an instance template is created you cant change anything);
+
+Step--> 1 First go to the instance template at left and start creating an instance template
+Step--> 2 Then go inside create instance then allow http traffic and then paste the startup script as usual in VM creation
+Step-->3 go to create instances and also then u can see that the instances are created and also now its easier to create a vm instance as everything is predefined
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+					Usage of custom image(mainly not to install apache again and again like the os not to be installed again and again)
+Installing OS patches during creation can create a hell lot of time thus we have to change preinstall all software so as to decrease the bootup time
+Thus we can create an instance and then create a custom image with it
+This can be also shared with all other instances 
+
+Hardening an image means maintaining all the security standards of an image
+
+Step-->1 Create a VM from VM instances
+Step-->2 Go to storage and click on disks
+Image means creating a copy of that image as told that the VM instance cant be changed thus we can create a copy of it and then we can change
+
+Step--> 3 Go to disk click on the 3 buttons and then click on create image
+Step-->4 Choose the location as multi regional
+Step-->5 You must never create an image inside a running disk thus you have to stop the instance
+Step-->6 Use default for all the instances and then the image is created
+
+Step--> 7 Now go into the VM and then go inside instance template and make a copy of it and then change the Boot Disk and change it to the image that is made
+Thus we have made it properly
+but one thing is that we have to make the startup script different now and use other startup script no need to install apache anymore see it in cloudcommand.txt
+
+Premmitable VM can also be created (but dont do this) because it doesnt last for hours and none immediate fault program
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+					Sole - Tenant - Nodes
+Default tendency of a compute engine is share tendency like the default tendency of a VM is that anyone can access it from anywhere having the IP addresses
+Sole tenant nodes means that the instances that belong to only one customer like all the instances belong to your VM only
+
+Step--> 1 come to compute engine
+Step-->2 At the left side of the bar you have a sole tenant nodes and click on that and create a node group
+Thus we have made the sole tenacy (remember dont create anything just for learning purpose) and then move to create instance and then acheck the management box and then see that the sole tenacy and affinity levels there you can see the work of sole tenacy	
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+						KeyPoints-->
+Custom machine types here what we have to do like if the VM given to us is not appropriate and then we have to select something custom
+For example we can create each and everything as per our requirements
+
+For example--> Go to compute engine create VM and then see the machine confrigation and then look at predefined VM machines
+Hardened images means images that are secure land have enough security to start the instance
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+			Creating a MIG managed instance group-->
+Cool down period like i have implemented the autoscaling feature then what should i do to again start autoscaling
+MIG can give autoscaling autohealing and other things. You can also drop the no of faliures and also other things
+
+Autohealing can be done by preventing traffic like you can give and initial delay to allow it to accept traffic
+
+Step--> 1 First create a VM instance and then start the instance after that go to the instance groups in the left side of the coloumn and then press instance groups
+The press managed instance group (Stateless) because we have not to keep anykind of databases
+Then go and name the instance group and then choose the instance template
+
+Then check the autoscaling there are 3 options (ON) , (OFF) and (SCALE OUT)
+inside ON we have to switch on like the scaling would be donw automatically
+inside scale out addition takes place but removal is also on our dependent
+Check the min and max no of groups
+Then go to scaling controls
+
+
+Then Autohealing is important
+Go to auto healing and create an autohealing and then click on HTTP as the server as we create the server is HTTP
+Then after health check is created then click inside the initial delay that is present inside the one of the confrigations
+Thus we can say that make the inital delay as 30 and then take the default for each and every thing
+Then click on create because it can take some time
+
+
+--> now click on the instance groups and then you can see that who all are healthy and who all are unhealthy
+Now you can also edit this by clicking on the instance groups and can also make the 2 to 3 this can help in increasing the no of instance groups
+
+
+
+----------------------------------------------------------------------------------------------------------
+ 		Load balancing between instances
+ 	Cloud load balancing can be used to distribute load in different regions
+ Create a load balancer --> Type load balancer at the search box
+ It distributes incoming traffic among different traffic and also can be formed among different forms
+ 
+ Step-->1 Click on load balancer and create load balancer
+ Create the default inside the internet facing and also internal only
+ Step-->2 After the load balancer the fact is that which starting the confrigation inside the HTTP then start with the classic HTTP and then press continue;
+ 
+ Then there are 3 types of portal
+ Backend --> Managed instance group is backend because we want to put traffic inside the managed instance groups
+ 
+ Backend confrigation
+ --> click on backend service
+ Then give name to the backend service then come to new backend and then select the backend group
+ Select the HTTP port to 80 as https has PORT number as 80
+ Disable the cache CDN
+ Then come to the health check and then put the health check inside it
+ and then put the default for rest of the settings and click on create
+ --Then come to the host and path rule and set everything as default
+ --Then come to the frontend and then change the port number and the services lead 
+ -- that is then use all of the above things
+ --finally see the review and finalise option and then review once
+ --> after that click on create and your load balancer is created
+ Now after the creation of load balancer 
+ 
+ Now click upon the load balancer and then copy the http number and then paste it on your browser and then you can see the load distributed while someone comes to an instance
+ 
+ 
+ In any problem give it some few minutes
+ click on monitoring  and u can see the load balancer
+ 
+ 
+
+
+
+

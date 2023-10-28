@@ -1,0 +1,137 @@
+investors think that stocks is the only way to trade inside an exchange but to be precise stocks only reperesnt an asset class
+there are several classes beyond stocks like suture trade , derivative trade forex or foreign exchange if a trader is looking to trade then he must diversify risk 
+
+future is classified as derivative exchange and derivative is a product that derives its value from an underyling and an underlying can be E&P s & p complex crude oil or foreign exchange
+As the name suggest derivatives means that ot derives its value from an certain entity like forex and other things inside the stock exchange
+
+Advantages of future trading
+--> exceptional liquidity many stocks offer a huge liquidity
+--> exceptional liquidity , high commision and the last one is around the clock trading and also have low risk of investment
+and tax efficiency
+bow advantages of future are --> liquidity , high commision , around the clock trading , risk less by diversification
+
+Differences in trading futures and stocks
+
+stocks and future--> 
+location --> they are traderd at an security exchange such as nyse but these are traded at derivative market such as cme group and they are governed by sec means security exchange council and these are by cftc
+
+trading account --> stocks can be traded out of account via an broker means if you dont have an account you can also trade inside stocks but this doesnt work with future you have to open an future account and then deal with it and it is an straight forward process to open an trading account  just submit all documents and your account must have an min balance like it is not everyones stuff
+
+
+trading unit shares vs contracts vs dividends
+when you trade in stocks you buy shares you can hold shares for a particular time if the company is growing and can also pay company people also pay dividends to them who hold stocks but inside future they need to have a certain date and time after that you cant purchase
+
+stocks can have an margin account eans that when you but a stock then you can go and pay for that stock inside the market and you can also borrow inside the market but here you cant do that inside the future exchange you cant borrow or have an margin ccount inside the market
+
+there is a min fluctuatuin per contract means that if we trade inside a stock then there can be min fluctuation inside the exchange and that is known as tick it can be very small like 0.01 dollar 
+
+inside usa certain level of protection is there for the stock trader inside the stock market for example if the market goes below points then an small amount is provided by seeing the bank deposits 
+like stocks future cintracts have ticker symbols inside them and have been awarded with a particular symbol inside the stock exchange 
+
+no borowing thus bothing to pay
+cme market is open from sunday evening to friday afternoon --> 23 hpurs a day
+cme market is open from sunday evening to friday afternoon
+
+cme market is open from sunday evening to friday night 23 hours a day
+sundy evening to friday night 23 hours a day
+
+
+
+---------------------------------------------------------------
+contract specification -->
+a future contract is a contract that enables us to but and sell specific sontract inside the market on a future date at the market enabled price
+
+
+contract size means how much amount is to be brought inside tge market and is being determined by the stock exchange like wti crude oil has min of 1000 barrels of wti crude inside the market
+
+tick size is the min amount of fluctuation inside the market means that
+like wti crude oil you can have 0.01 is the tock size and you can call for 1000 then it is 10 dollar per tick
+ticker symbol like stocks future contracts also have symbols inside the market and have also expiration date inside the market each has month and yeat of expiry
+
+Certain futures contracts have price limits. This means the contract price has certain limits up and down. This is part of the risk mitigation process of the exchange and it protects customers, brokers and the exchange from excessive price movements beyond a certain range
+
+this part has this has a certain level of ups and downs inside the ,market
+
+while trading inside a future contract only variable unknown is price
+while trading inside an futures contract the only variable unknown is price of the contract as it depends upon national value
+
+--------------------------------------------------------------------->
+
+
+	PHYSICAL DELIVERY VS CASH SETTLEMENT
+no dobt alomst everyoe is invlives inside the futures trade inside the market but there is a catch and the catch is that like for example thre is 5000 bushes of soyabeans and all;anyone entering the market must know the entire things about future means that anyone entering the market must know the varous delivery mechanisme inside the market
+
+
+cash settlement --> insted of acquiring a physical commodity we need to acquire inside a market there is no physical commodity exchange rathere there is cash settlement inside the market like yoy pay the price of that commidity and then pay the cash inside the market
+
+
+may contracts needs to be paid about in physically like wti crude 500 needs to be settled in cash similarly other things like soyabean bushels 
+
+Delivery process in physically delivered futures contracts
+
+As future contracts nears its month those who are still holding positions inside the exchange needs and get notice inside the market the short position holder to deliver an underlying commodity must be given an notice to settle the delivery instrument is an shipping certificate and an warehouse certificate
+a long twem trader must be preoared to take the delivery pay te delivery of the full contract infact less that 3 percent go into final delivery
+
+First notice day (FND)
+the first day the exchange can assign delivery to the accounts
+first trading day only for cash contracts
+To avoid deliveries, market participants, who are long futures, must be out by the close of the day before FND. If you are not flat heading into the close of the day before FND, you will be long the futures on the statement heading into FND, and the exchange can assign delivery.
+
+understanding product move -->
+building a trading plan 
+trader build a proper trading plan before procedding for a trade and they are like one is 
+the size of minimum move like what is the size of the contract
+second is what is the dollar value associated with the contract
+last is the tick size assiciated with the contract
+
+so there are mainly 3 values associated with the contract
+one is the size of the contract
+second is the value of thecontract associated with it
+third is the min flucutation that is the tick size of the contract
+
+calculating profit and loss
+profit and loss are being calculated by calculating the trade for example a trader has e and s contract at 2900 there is a dollar value of all contracts and this is known as national value inside the market
+every trader needs to understand teh amount of leverage that he or she could get inside a particular future contract
+
+ECONOMIC EVENTS
+economic statitics are relased almost everyday inside the market is open as such as news occurs there are outcomes of yout trade
+
+Before you enter your trade, consider whether your trade assumption might be impacted by the impending data reports. You may choose to place your trade at a later date, you may choose to set a tighter stop, or close out your position prior to an economic event if you feel this could influence the outcome of your trade. 
+
+
+How/when a market may be impacted can be unpredictable
+trying to predixt the impact of economic events inside is quiet challenginf some people impact correct decision
+market moves are typically quick and happen very soon thus we can see news and predixt
+Traders should have a plan for how they are going to trade and manage their trades around economic releases. Some traders will want to trade in anticipation of the move and other traders will want to be flat before the move and trade the reaction to the move. Traders might also add protective stops to their positions just in case the market moves against them if they are holding a trade through economic events.
+
+Economic reports are extremely important in assessing the overall economic picture and getting a handle on trends in the various markets. As a trader, you will need to know which reports would most likely impact the markets you are trading.
+
+
+Day traders vs. swing traders --> 
+future traders can be groupes day trader and seing traders and 
+there are 2 kinds of traders one is day trader and the other one is swing trader
+day traders are those who will hold positions inside the market for the same hours means that they will hold positions inside the one for the same day sessions
+swing tradrs will hold trading sessions for more than one trading sessions
+risk is based on risk tolerance and other factors 
+a trader who wants to hold trade inside inside e and s & pp will holld trades for a few days 
+
+while markets would be changing the e and s can be seen inside the market the longer the trade is there there is more amount of riskk invloved inside the market
+
+In order to make an informed decision about a trade, and to decide the length of time to keep a trade open, a trader will collect evidence to support the assumption of an anticipated move in a market.
+
+Traders will typically classify themselves based on how they gather this evidence to form a trading assumption. Traders will usually identify as either a fundamental trader or technical tr
+
+
+Fundamental traders vs. technical traders
+
+fundamental tradrs on data and technical traders on price yags
+
+each trader have managing risk inside the stock market some traders consider risk as the potential amount to lose a trade and also some consider risk to be amount located inside the excange
+
+volatility --> 
+traders will unnderstand how volatile a trade is and how how much adjustment to be made for them
+contract value is the amount of contract to be traded inside a stock exchange 
+you can reduce the risk by reducing the future contracts
+ofterntimes stop orders are placed insid the stock exchange to see the no of ticks and also the risk invloved mean how much risk can be taken by the person inside the stock exchange
+wider the price change more volatile is the product 
+stop discovery is like the amountof risk inside the trade	

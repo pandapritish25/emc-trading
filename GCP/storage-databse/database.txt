@@ -1,0 +1,107 @@
+Relational databases --> maily OLTP databases
+--------------------------------------------
+Different types of databases there are many kinds of databases one is relational one is document
+and inside relational there are also 2 types --> OLTP and OLAP
+Now you have too choose which database to choose
+it depens upon what kind of transactions is to be needed
+
+--------------------
+Relational Databases
+Reltional databases means we have a predefined schema and other things like rows and coloumns
+and also predefined relationship between tables and the variables taken
+Like assume a relational database as student then it is ovious that the id must be in int and the varchar must ne in char and other things
+
+As each one of them is related to each other thus it has a very good transactional data bases schemas
+like all related databases here we can have strong transactional databases like if we need to change anything then it is possible to change in an easier way
+
+--------------------
+OLTP --> online transactional processing
+whenever the data is there and it is a transaction related querythen it is known as OLTP
+like here small amounts of data to be updated everywhere thus this is known as OLTP
+small data reads and all are OLTP use cases
+example bank and all 
+Most of usecases is regional --> few terrabytes of data
+cloud sql is one of best relational database --> few terrabytes
+cloud spanner --> few pettabytes
+--------------------
+
+Step-->1 Press cloud sql on the console and press on create instance and then MYSQL
+Step-->2 then give a username and password and then click on create instance
+Step-->3 click on databases
+Step-->4now your sql is created now go to database and create a database by clicking database at the left hand side
+Step-->5 now go to overview and then connect the cloud shell by opening the cloud shell
+but this would show an error and an api to be enabled for this click the link in the cloud shell and then click on the link and then click on admit api
+now reconnect with databse again --> now it will run fine
+
+Now you can come to the mysql database
+Now you can do anything inside the sql like use this and that
+
+Last Step--> click on all instances and delete them (also you have to disable protection)
+
+
+--------------------------------------------------------------------------------
+		Lets learn about cloud spanner
+Step-->1 type cloud spanner and enable cloud spanner api
+Step-->2 now click on cloud spanner and click on start free trial and then give the name
+Step-->3 click on start insrance
+Step-->4 create database now click on create data base and then start create table
+
+
+create a table like this
+CREATE TABLE Users (
+  UserId INT64 NOT NULL,
+  UserName STRING(1024)
+) PRIMARY KEY (UserId); and click on submit
+
+now a table would be created after submit
+now go to overview and then click on users table and at last delete the instance
+
+
+--------------------------------------------------------------------------------
+OLAP --> online analytical processing
+example insurance and analyse data like 100 of data are there 
+and inside gcp big query is used
+inside OLTP the data is stored in row format and OLAP the data is stored in coloumnar storage and there is cluster storage also
+
+
+--------------------------------------------------------------------------------
+
+		NOSQL databases
+	inside relational data bases ther eis a fixed schema that we have to manage according to tables and coloums but inside the non relational databse we donot have any scheme like it can be anything
+	NOSQL means not only SQL
+	but here like there is no 100 percent guranter
+	no sql is scalable and also high performant 
+	
+	NOSQL databases are firestore
+	
+	Cloud bigtable can store data upto 10 to 20 petta bytes
+	
+	
+	--------------------------------------------------------------------------------
+	
+			FIRESTORE
+	
+	Step-->1 click on firestore and then enter into firestore and also enable the API then click inside the create database
+	there are 2 modes there are native and datastore mode
+Step-->2 select native mode and then choose aisa mumbai in region and then start database
+Step-->3 Start collection
+Step-->4 now start on collection and then put the document name and other things like inside the field name write the name and then choose the field and then choose and then start create
+
+Inside a specific document you can also create all the things
+Now if we want to query according to a certain type or anything then we have to use the indexes like if we want to use certain indexes then we can make all these
+Like go on indexes then write the collection name and then on which basis you want to query 
+
+One of the things you can do is that you can click on filter and this is  the best things
+and then click on ascending or descending and then click on apply
+
+
+You can also import and export data 
+
+--------------------------------------------------------------------------------
+INMEMORY DATABASES
+retriving data from memory is much easier than any other forms for which in memiry database is used as they provide microsecond data because you can retrive much faster
+Cloud memory store
+
+	
+
+

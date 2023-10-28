@@ -1,0 +1,49 @@
+		SECURITIES
+		-----------
+
+-->What are securities ?
+Defination of securities is that 
+It includes bonds , shares , stocks of or any other company that is recognised by the government of india and if it is private then by the it must abide certain rules so as to follow all the rules
+
+-->What are securities Market ?	
+This is a place where buyers and sellers of securities can accomodate and also can make transactions regarding security 
+It mainly allows the enterprenures and other government schemes to be issued by the public issues and also allows normal public to be a part of securities market
+Mainly security markets provide channel between 2 people for reallocation of business and stocks of that business
+
+-->Which securities can one invest in ?
+Shares and stocks 
+Derivative
+Mutual funds
+Bonds and debaantures by the govt
+
+Why does Securities Market need Regulators?
+
+It is highly essential to have a regulator inside a competitive market else the things may go wrong the main work of the regulator is to ensure that all teh people are in desired manner while purchasing of stocks and major source of investors are being protected
+
+Who regulates the Securities Market? --> reserve bank of India (RBI)
+					 Securities and exchange board of India (SEBI)
+					 
+-->What is SEBI and what is its role
+SEBI is the security and exchange board of india
+Mainly its work is that 
+--> it would protect the investors from large interest inside the stock market
+--> mainly regulate all the buying and selling of all the stocks and check that all the things go on a regular and desired manner
+--> mainly promotes the development of security market
+It is also responsible for registration of buyer and seller and also keeps a note of exchange made inside stock exchange
+
+Who are the participants in the Securities Market?
+Mainly there are 3 people inside securities marke
+--> issuers of Securities
+--> buyers of security
+--> intermediatiers like brokers and all who provide a channel between the investor and other people
+
+
+-->Is it necessary to transact through an intermediary?
+Yes it is definitelly advisible to regulate money via an intermediatary you need to have a banker account in demat form and as per srca rules we need to have an intermeddiatary who regulates all the holdings . Most importance and intermediatary guides you through a number of guidelines
+
+What are the segments of Securities Market?
+
+There are 2 types of segments 
+Primaty--> deals with issue and selling of new security
+Secondary--> deals with the issue and selling of previously issued securities
+

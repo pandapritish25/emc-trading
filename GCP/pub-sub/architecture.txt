@@ -1,0 +1,48 @@
+Whenever you want to decouple an publisher from an subscriber then cloud pub/sub is used
+pub/sub is used in a number of architecture
+
+	cloud dataproc
+	Its is a managed spark and hadoop service
+	There are a lot of data prompts present and they are spark , pyspark , hive , pig
+	
+	inside data proc you can create multiple cluster modes and dataproc uses virtual machines
+	and why to use dataproc it is because like if we want to use spark and hadoop then we would move them to google cloud and also some alternative is big query
+	
+	Now why data proc is used it is used when we have clusters such as dataproc and hadoop
+	
+
+How to get data into big query
+Now here we can do 2 things one is ETL and the other is ELT
+dataproc is a managed service and one of them is data studio
+
+
+Streaming data
+Cloud pub/sub --> receive messages
+Now we have to process the data and we have to process it via cloud dataflow and also it is helpful
+Now you have to load the data into big query
+
+
+IOT code--> internet of things 
+This is where you can manage iot devices 
+This helps to send messages to iot devices and also helps to receive messages from IOT devices
+Pub sub is also alowed to receive all the messages
+
+Using datalakes --> 
+Using big data solutions analysing ans visualising huge data solutions is known as big data solutions
+means calculationg all the big data solutions and processing all the big data queries is known as data lake
+
+Data ingestion-->
+Like if we are streaming data then we can use pub-sub + cloud dataflow
+But like you have transfer service then use gsutil and this can also be used
+It also supports numpy and other things
+
+
+	REST API CHALLENGES-->
+Management of rest API is not at all easy and also we have to take authentication and authorisation and also all the things
+Thus the solution is cloud management
+
+APIgee API management--> Now its a complex product to have a complete life cycle means that design analyse monitor and also all the things
+
+Cloud endpoints and also it helps to build a container and also create a google container
+API gateway is one of the kind of factors like which has a simpler setup and also helps to make them
+
