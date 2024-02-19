@@ -1,0 +1,56 @@
+# Environment variables.
+NODE_ENV=development
+# NODE_ENV=production
+# STATUS=production
+#Development port
+DEV_PORT=3001
+#Production port
+# PROD_PORT=8000
+
+# CLIENT_URL=http://localhost:3000
+CLIENT_URL=http://localhost:3000
+
+# #DB CONFIG
+# DB_HOST=localhost
+# DB_USER=postgres
+# DB_PASSWORD=vithal06
+# DB_DATABASE=postgres
+# DIALECT=postgres
+# DB_PORT=5432
+
+EMAIL_FROM="vithalagrawal6@gmail.com"
+
+#NEON DB CONFIG
+DB_DATABASE='neondb'
+DB_PORT=5432
+DB_HOST='ep-muddy-frog-18780884-pooler.ap-southeast-1.aws.neon.tech'
+
+PGHOST='ep-muddy-frog-18780884-pooler.ap-southeast-1.aws.neon.tech'
+PGDATABASE='neondb'
+PGUSER='vithalagrawal6'
+PGPASSWORD='APWF3Io4JgNh'
+ENDPOINT_ID='ep-muddy-frog-18780884-pooler'
+
+#JWT Config
+JWT_SECRET_KEY=ultra123supersaiyan321secretjwt
+# 30 minutes = 30*60 = 1800
+# 1 day = 24*60*60 = 86400
+# 30 days = 30*24*60*60 = 2592000
+# 2 minutes
+# JWT_ACCESS_TOKEN_EXPIRATION=1800
+JWT_ACCESS_TOKEN_EXPIRATION=60
+# 1 day = 24*60*60 = 86400
+# 30 days = 30*24*60*60 = 2592000
+JWT_REFRESH_TOKEN_EXPIRATION=2592000
+
+
+#BUFFER DURATION CONFIG
+DESK_BUFFER_DURATION=1
+DESK_BUFFER_UNIT=days
+CAB_BUFFER_DURATION=14
+CAB_BUFFER_UNIT=days
+FOOD_BUFFER_DURATION=14
+FOOD_BUFFER_UNIT=days
+
+NODEMAILER_EMAIL=vithalagrawal6@gmail.com
+NODEMAILER_PASSWORD=wxhydyrfjtwjjfote
